@@ -37,3 +37,4 @@ Output: `New York: Temp: 5.2°C, Humidity: 75%, Wind: 15 km/h, Rain Chance: 20%`
 ## API
 
 This app uses Nominatim for geocoding (city to coordinates) and Open-Meteo for weather data (temperature, humidity, wind speed, precipitation probability). No API key required.i
+hi
