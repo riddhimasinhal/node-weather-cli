@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+#!/usr/bin/env node\
+// #m
 
 const city = process.argv[2] || 'London';
 
@@ -22,4 +23,4 @@ fetch(geoUrl)
     console.log(`${city}: Temp: ${current.temperature}°C, Humidity: ${humidity}%, Wind: ${wind} km/h, Rain Chance: ${rain}%`);
   })
   .catch(err => console.error('Error fetching weather:', err.message));
-  // console.log("hello");
+ 
